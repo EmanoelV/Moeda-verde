@@ -1,0 +1,61 @@
+html, body {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#8E5EFF,  #42F557);
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+    border-color: #42f557;
+    font-weight: bold;
+}
+
+#peso {
+    margin-right: 10%;
+}
+
+.container {
+    position: absolute;
+    top: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10%;
+    height: 70px;
+    border: none;
+    background-color: rgba( 0, 0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+img {
+    width: 80%;
+    position: absolute;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 

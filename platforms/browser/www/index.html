@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Moeda Verde</title>
+</head>
+
+<body onload="ajust()">
+    <div class="container" id="container">
+        <textarea type="text" id="output" disabled="true" name="output">Adicione os valores abaixo por favor.</textarea>
+        <div class="inputs">
+            <input type="number" id="peso" name="peso" oninput="confirmInputs()" placeholder="PESO (Kg)" />
+            <input type="number" id="preco" name="preco" oninput="confirmInputs()" placeholder="PREÇO (R$)"/><br>        
+        </div>
+    </div>
+    <img id="img" src="./img/icon.png" />
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+</html>

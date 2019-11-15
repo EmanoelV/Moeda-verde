@@ -1,2 +1,2 @@
-# Moeda-verde
-Aplicativo simples feito com Cordova para o projeto moeda verde Igarapé-Açu
+# Moeda Verde - Igarapé-Açu
+Versão Alpha do aplicativo moeda verde para android

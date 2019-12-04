@@ -5,8 +5,20 @@
         Simples caculadora para o projeto moeda verde de ingarapé-açu
     </description>
     <author email="prof.emanoel.vieira@gmail.com" href="https://github.com/EmanoelV">
-        PhoneGap Team
+        Emanoel S. Vieira
     </author>
     <content src="index.html" />
     <access origin="*" />
+
+
+    <platform name="android">
+        <icon src="res/icon/android/hdpi.png" density="hdpi" />
+        <icon src="res/icon/android/mdpi.png" density="mdpi" />
+        <icon src="res/icon/android/xhdpi.png" density="xhdpi" />
+        <icon src="res/icon/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/icon/android/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+    <splash src="splash.png" platform="android" />
+    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="android-versionCode" value="1" />
 </widget>
